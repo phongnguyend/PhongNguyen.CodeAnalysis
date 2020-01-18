@@ -3,8 +3,8 @@
 ## IQueryable
 | Id  | Title | Category | Severity |
 | --- | ----- | -------- | -------- |
-| PNIQ001 | Using Expression which has 'Contains' method might generate Adhoc queries. | Optimazation | Warning |
-| PNIQ002 | Evaluate IQueryable inside a Loop might generate multiple queries to database. | Optimazation | Warning |
+| PNIQ001 | Using Expression which has 'Contains' method might generate Adhoc queries. | Performance Optimization | Warning |
+| PNIQ002 | Evaluate IQueryable inside a Loop might generate multiple queries to database. | Performance Optimization | Warning |
 
 ## Code Complexity
 | Id  | Title | Category | Severity |
