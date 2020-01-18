@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IQueryableAnalyzer", "IQueryableAnalyzer", "{6D5F26EA-8877-432B-96BB-CD9E6B36B503}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeComplexityAnalyzer", "CodeComplexityAnalyzer", "{DCFEC021-B495-4DB9-AD76-B857033179AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeAnalysis.CodeComplexityAnalyzer", "CodeAnalysis.CodeComplexityAnalyzer\CodeAnalysis.CodeComplexityAnalyzer\CodeAnalysis.CodeComplexityAnalyzer.csproj", "{A6E727EB-9646-4637-AE20-9B35D21045E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeAnalysis.CodeComplexityAnalyzer.Test", "CodeAnalysis.CodeComplexityAnalyzer\CodeAnalysis.CodeComplexityAnalyzer.Test\CodeAnalysis.CodeComplexityAnalyzer.Test.csproj", "{E787CB95-4CCB-4A62-AE45-A0C9B820CFEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAnalysis.CodeComplexityAnalyzer.Vsix", "CodeAnalysis.CodeComplexityAnalyzer\CodeAnalysis.CodeComplexityAnalyzer.Vsix\CodeAnalysis.CodeComplexityAnalyzer.Vsix.csproj", "{D007CB79-B612-4324-913D-F570EF8BE844}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeAnalysis.IQueryableAnalyzer", "CodeAnalysis.IQueryableAnalyzer\CodeAnalysis.IQueryableAnalyzer\CodeAnalysis.IQueryableAnalyzer.csproj", "{91E3225A-FE31-4AE9-B0F2-2418043B4299}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeAnalysis.IQueryableAnalyzer.Test", "CodeAnalysis.IQueryableAnalyzer\CodeAnalysis.IQueryableAnalyzer.Test\CodeAnalysis.IQueryableAnalyzer.Test.csproj", "{9D594396-1F64-4EE6-9BDB-D6E2FCC02E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAnalysis.IQueryableAnalyzer.Vsix", "CodeAnalysis.IQueryableAnalyzer\CodeAnalysis.IQueryableAnalyzer.Vsix\CodeAnalysis.IQueryableAnalyzer.Vsix.csproj", "{D55BD676-4A98-43F7-BB2E-FEE2AB85F528}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6E727EB-9646-4637-AE20-9B35D21045E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E727EB-9646-4637-AE20-9B35D21045E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E727EB-9646-4637-AE20-9B35D21045E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E727EB-9646-4637-AE20-9B35D21045E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E787CB95-4CCB-4A62-AE45-A0C9B820CFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E787CB95-4CCB-4A62-AE45-A0C9B820CFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E787CB95-4CCB-4A62-AE45-A0C9B820CFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E787CB95-4CCB-4A62-AE45-A0C9B820CFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D007CB79-B612-4324-913D-F570EF8BE844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D007CB79-B612-4324-913D-F570EF8BE844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D007CB79-B612-4324-913D-F570EF8BE844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D007CB79-B612-4324-913D-F570EF8BE844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E3225A-FE31-4AE9-B0F2-2418043B4299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E3225A-FE31-4AE9-B0F2-2418043B4299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E3225A-FE31-4AE9-B0F2-2418043B4299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E3225A-FE31-4AE9-B0F2-2418043B4299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D594396-1F64-4EE6-9BDB-D6E2FCC02E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D594396-1F64-4EE6-9BDB-D6E2FCC02E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D594396-1F64-4EE6-9BDB-D6E2FCC02E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D594396-1F64-4EE6-9BDB-D6E2FCC02E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55BD676-4A98-43F7-BB2E-FEE2AB85F528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55BD676-4A98-43F7-BB2E-FEE2AB85F528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55BD676-4A98-43F7-BB2E-FEE2AB85F528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55BD676-4A98-43F7-BB2E-FEE2AB85F528}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6E727EB-9646-4637-AE20-9B35D21045E1} = {DCFEC021-B495-4DB9-AD76-B857033179AE}
+		{E787CB95-4CCB-4A62-AE45-A0C9B820CFEF} = {DCFEC021-B495-4DB9-AD76-B857033179AE}
+		{D007CB79-B612-4324-913D-F570EF8BE844} = {DCFEC021-B495-4DB9-AD76-B857033179AE}
+		{91E3225A-FE31-4AE9-B0F2-2418043B4299} = {6D5F26EA-8877-432B-96BB-CD9E6B36B503}
+		{9D594396-1F64-4EE6-9BDB-D6E2FCC02E38} = {6D5F26EA-8877-432B-96BB-CD9E6B36B503}
+		{D55BD676-4A98-43F7-BB2E-FEE2AB85F528} = {6D5F26EA-8877-432B-96BB-CD9E6B36B503}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B57DBDE-4A8B-4AE4-BA0C-35B996016640}
+	EndGlobalSection
+EndGlobal
